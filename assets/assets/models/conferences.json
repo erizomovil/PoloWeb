@@ -1,0 +1,190 @@
+[
+  {
+    "conferenceId": "CONF004",
+    "conferenceName": "Early Bird Conference",
+    "conferenceSchedule": {
+      "startDate": "2025-03-20",
+      "startTime": "08:00",
+      "endTime": "16:00"
+    },
+    "conferenceSummary": "An early conference focused on new tech.",
+    "conferenceLocation": "London, UK",
+    "userLikes": true,
+    "events": [
+      {
+        "eventId": "EVT004_1",
+        "eventName": "Opening Session",
+        "eventLocation": "Main Auditorium",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-03-20",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        },
+        "description": "Keynote speeches on emerging technologies."
+      },
+      {
+        "eventId": "EVT004_2",
+        "eventName": "Workshop: AI",
+        "eventLocation": "Room A",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-03-20",
+          "startTime": "10:00",
+          "endTime": "12:00"
+        },
+        "description": "Hands-on session on AI development."
+      }
+    ]
+  },
+  {
+    "conferenceId": "CONF001",
+    "conferenceName": "Tech Innovations",
+    "conferenceSchedule": {
+      "startDate": "2025-04-15",
+      "startTime": "09:00",
+      "endTime": "17:00"
+    },
+    "conferenceSummary": "A conference showcasing the latest in tech innovations and trends.",
+    "conferenceLocation": "Berlin, Germany",
+    "userLikes": false,
+    "events": [
+      {
+        "eventId": "EVT001_1",
+        "eventName": "Opening Keynote",
+        "eventLocation": "Main Hall",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-04-15",
+          "startTime": "09:00",
+          "endTime": "10:00"
+        },
+        "description": "Introduction to new tech trends."
+      },
+      {
+        "eventId": "EVT001_2",
+        "eventName": "Networking Lunch",
+        "eventLocation": "Dining Area",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-04-15",
+          "startTime": "12:00",
+          "endTime": "13:00"
+        },
+        "description": "Casual networking over lunch."
+      },
+      {
+        "eventId": "EVT001_3",
+        "eventName": "Panel Discussion: Future of AI",
+        "eventLocation": "Conference Room B",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-04-15",
+          "startTime": "14:00",
+          "endTime": "15:30"
+        },
+        "description": "Experts discuss AI's future impact."
+      }
+    ]
+  },
+  {
+    "conferenceId": "CONF002",
+    "conferenceName": "HealthTech Summit",
+    "conferenceSchedule": {
+      "startDate": "2025-05-10",
+      "startTime": "08:00",
+      "endTime": "16:00"
+    },
+    "conferenceSummary": "Exploring the intersection of technology and healthcare.",
+    "conferenceLocation": "Munich, Germany",
+    "userLikes": false,
+    "events": [
+      {
+        "eventId": "EVT002_1",
+        "eventName": "Welcome Address",
+        "eventLocation": "Auditorium",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-05-10",
+          "startTime": "08:00",
+          "endTime": "09:00"
+        },
+        "description": "Opening speech on HealthTech trends."
+      },
+      {
+        "eventId": "EVT002_2",
+        "eventName": "Innovations in Telemedicine",
+        "eventLocation": "Conference Room A",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-05-10",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        },
+        "description": "Exploring new telemedicine technologies."
+      },
+      {
+        "eventId": "EVT002_3",
+        "eventName": "Lunch and Learn",
+        "eventLocation": "Cafeteria",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-05-10",
+          "startTime": "12:00",
+          "endTime": "13:00"
+        },
+        "description": "Informative lunch with industry speakers."
+      }
+    ]
+  },
+  {
+    "conferenceId": "CONF003",
+    "conferenceName": "Green Energy Expo 2025",
+    "conferenceSchedule": {
+      "startDate": "2025-06-20",
+      "startTime": "10:00",
+      "endTime": "18:00"
+    },
+    "conferenceSummary": "A platform to discuss and showcase sustainable energy solutions.",
+    "conferenceLocation": "Hamburg, Germany",
+    "userLikes": false,
+    "events": [
+      {
+        "eventId": "EVT003_1",
+        "eventName": "Inaugural Speech",
+        "eventLocation": "Expo Center",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-06-20",
+          "startTime": "10:00",
+          "endTime": "11:00"
+        },
+        "description": "Opening remarks on green energy solutions."
+      },
+      {
+        "eventId": "EVT003_2",
+        "eventName": "Solar Energy Workshop",
+        "eventLocation": "Workshop Room 1",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-06-20",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        },
+        "description": "Practical session on solar energy use."
+      },
+      {
+        "eventId": "EVT003_3",
+        "eventName": "Networking Dinner",
+        "eventLocation": "Banquet Hall",
+        "userLikes": false,
+        "eventSchedule": {
+          "eventDate": "2025-06-20",
+          "startTime": "17:00",
+          "endTime": "19:00"
+        },
+        "description": "Evening networking with industry professionals."
+      }
+    ]
+  }
+]
