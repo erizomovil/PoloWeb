@@ -26,7 +26,7 @@
   "privacy_howDoYouWantToAppear": "Comment souhaitez-vous apparaître aux autres participants ?",
   "privacy_virtualNameBadge": "Badge nominatif virtuel",
   "privacy_yourSharedContactDetails": "Vos coordonnées partagées",
-  "privacy_contactDetailsDescription": "Lorsque vous vous connectez avec d'autres participants, les coordonnées affichées ci-dessous sont partagées. Veuillez vérifier/compléter ces informations et décider des éléments que vous souhaitez partager avec les autres participants. Une coche verte confirme que l'élément sélectionné sera partagé.",
+  "privacy_contactDetailsDescription": "Lorsque vous vous connectez avec d'autres participants, les coordonnées affichées ci-dessous sont partagées. Veuillez vérifier/compléter ces informations et décider des éléments que vous souhaitez partager avec les autres participants. Une coche confirme que l'élément sélectionné sera partagé.",
   "conf_where": "OÙ",
   "conf_when": "QUAND",
   "conf_what": "QUOI",

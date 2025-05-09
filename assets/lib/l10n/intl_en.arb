@@ -26,7 +26,7 @@
   "privacy_howDoYouWantToAppear": "How do you want to appear to other attendees?",
   "privacy_virtualNameBadge": "Virtual Name Badge",
   "privacy_yourSharedContactDetails": "Your shared contact details",
-  "privacy_contactDetailsDescription": "When you connect with other attendees, the contact details shown below are shared. Please review / complete these details and decide which items you wish to share with other attendees. A green check mark confirms that the selected item will be shared.",
+  "privacy_contactDetailsDescription": "When you connect with other attendees, the contact details shown below are shared. Please review / complete these details and decide which items you wish to share with other attendees. A check mark confirms that the selected item will be shared.",
   "conf_where": "WHERE",
   "conf_when": "WHEN",
   "conf_what": "INFO",
