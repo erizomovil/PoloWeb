@@ -29,7 +29,7 @@
   "privacy_contactDetailsDescription": "When you connect with other attendees, the contact details shown below are shared. Please review / complete these details and decide which items you wish to share with other attendees. A check mark confirms that the selected item will be shared.",
   "conf_where": "WHERE",
   "conf_when": "WHEN",
-  "conf_what": "INFO",
+  "conf_what": "SUMMARY",
   "id_identify": "Please, Identify",
   "id_login": "Login",
   "id_create_acc": "Create Account",
