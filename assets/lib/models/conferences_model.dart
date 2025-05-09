@@ -46,6 +46,22 @@ class Conference {
       'events': events.map((event) => event.toJson()).toList(),
     };
   }
+  // Método copyWith para permitir la modificación de conferenceSchedule
+  Conference copyWith({
+    ConferenceSchedule? conferenceSchedule,
+    bool? userLikes,
+    List<Event>? events,
+  }) {
+    return Conference(
+      id: this.id,
+      name: this.name,
+      location: this.location,
+      summary: this.summary,
+      conferenceSchedule: conferenceSchedule ?? this.conferenceSchedule,
+      userLikes: userLikes ?? this.userLikes,
+      events: events ?? this.events,
+    );
+  }
 }
 
 class ConferenceSchedule {
@@ -63,6 +79,21 @@ class ConferenceSchedule {
   Map<String, dynamic> toJson() {
     return {'startDate': startDate, 'startTime': startTime, 'endTime': endTime};
   }
+  // Método copyWith para modificar solo algunos valores
+  ConferenceSchedule copyWith({
+    String? startDate,
+    String? endDate,
+    String? startTime,
+    String? endTime,
+  }) {
+    return ConferenceSchedule(
+      startDate: startDate ?? this.startDate,
+      endDate: endDate ?? this.endDate,
+      startTime: startTime ?? this.startTime,
+      endTime: endTime ?? this.endTime,
+    );
+  }
+
 }
 
 
@@ -108,6 +139,20 @@ class Event {
       'conference': conferenceId,
     };
   }
+  Event copyWith({
+    EventSchedule? eventSchedule,
+    bool? userLikes,
+  }) {
+    return Event(
+      id: this.id,
+      eventName: this.eventName,
+      eventLocation: this.eventLocation,
+      eventSchedule: eventSchedule ?? this.eventSchedule,
+      userLikes: userLikes ?? this.userLikes,
+      description: this.description,
+      conferenceId: this.conferenceId,
+    );
+  }
 }
 
 class EventSchedule {
@@ -123,6 +168,18 @@ class EventSchedule {
 
   Map<String, dynamic> toJson() {
     return {'eventDate': eventDate, 'startTime': startTime, 'endTime': endTime};
+  }
+  // Método copyWith para permitir la modificación de eventDate, startTime y endTime
+  EventSchedule copyWith({
+    String? eventDate,
+    String? startTime,
+    String? endTime,
+  }) {
+    return EventSchedule(
+      eventDate: eventDate ?? this.eventDate,
+      startTime: startTime ?? this.startTime,
+      endTime: endTime ?? this.endTime,
+    );
   }
 }
 
